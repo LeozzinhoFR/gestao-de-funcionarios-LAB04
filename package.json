@@ -1,0 +1,27 @@
+{
+  "name": "sistema-gestao-funcionarios",
+  "version": "1.0.0",
+  "description": "Sistema de gestão de funcionários para startup de tecnologia",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server . -p 3000 -o",
+    "dev": "npx http-server . -p 3000 -o",
+    "docker:build": "docker build -t sistema-funcionarios .",
+    "docker:run": "docker run -p 3000:3000 sistema-funcionarios",
+    "docker:compose": "docker-compose up --build"
+  },
+  "keywords": [
+    "javascript",
+    "html",
+    "css",
+    "funcionarios",
+    "gestao",
+    "startup"
+  ],
+  "author": "Felipe",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
+
