@@ -18,8 +18,7 @@
     "gestao",
     "startup"
   ],
-  "author": "Felipe",
-  "license": "MIT",
+  "author": "Roncolato",
   "devDependencies": {
     "http-server": "^14.1.1"
   }
